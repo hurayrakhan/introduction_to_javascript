@@ -60,3 +60,41 @@ console.log(friends);
 
 friends.shift();
 console.log(friends);
+
+// to cheak any elements is present or not in an array
+
+const dalls = ["doremon", "pokemon", "teddy"];
+
+console.log(dalls.includes("doremon"));
+console.log(dalls.includes("doggy"));
+
+// to find index number of an element
+
+console.log(dalls.indexOf("teddy"));
+
+// if an element not present in an array then show the index number "-1"
+
+console.log(dalls.indexOf("doggy"));
+
+
+
+// to cheak a variable is an array or not
+
+console.log(Array.isArray(dalls));
+console.log(Array.isArray(friends));
+
+const age = 24;
+const dateOfBirth = "october";
+
+console.log(Array.isArray(age));
+console.log(Array.isArray(dateOfBirth));
+
+// dalls.join("+");  "+" "|" 
+// to concat two array we can use data1.concat(data2);
+// slice(); to slice a piece of data
+// splice();
+// 
+
+
+
+
