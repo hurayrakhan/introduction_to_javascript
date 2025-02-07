@@ -35,4 +35,28 @@ console.log(names[1]);
 console.log(numbers.length);
 console.log(strings.length);
 console.log(mixed.length);
-// t
+
+
+// Array push
+// to push elments in an array we can use array push
+
+const friends = ["hurayra", "miskat", "runu"];
+console.log(friends);
+friends.push("tuktuki", "rukaiya", "raihan");
+console.log(friends)
+
+// to remove and add an element we can use 
+//   1. to add last of the array  =  push()
+//   2. to remove last element of the array =  pop()
+
+friends.pop()
+console.log(friends)
+
+//   3. to add an element first in an array = unshift()
+//   4. to remove an elements first of an array = shift()
+
+friends.unshift("rezaul");
+console.log(friends);
+
+friends.shift();
+console.log(friends);
