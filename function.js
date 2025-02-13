@@ -110,5 +110,19 @@ console.log(doubleOrTriple(5, false));
 
 
 
+// function of array 
+
+
+function sumOfNumbers(numbers){
+    let sum = 0;
+    for(const num of numbers){
+        console.log(num);
+        sum = sum + num;
+    }
+    return sum;
+}
+const numbers = [5, 9, 12, 18, 20];
+const Total = sumOfNumbers(numbers);
+console.log(Total);
 
 
