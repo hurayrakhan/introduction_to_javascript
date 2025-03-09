@@ -9,3 +9,4 @@ const cube = numbers.map(element => {
 
 console.log(squre);
 console.log(cube);
+
