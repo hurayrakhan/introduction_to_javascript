@@ -30,3 +30,26 @@ function persons (users){
             containerUsers.appendChild(li)
       }
 }
+// another way to write fetch
+
+
+const handleFetch = async() =>{
+      const response = fetch("https://jsonplaceholder.typicode.com/users");
+
+      const data =await response.json();
+      console.log(data);
+
+}
+
+
+const handleFetchError =async () => {
+      try{
+            const response = fetch("https://jsonplaceholder.typicode.com/users");
+            const data = (await response).json();
+            console.log(data);
+      }
+      catch{
+            console.log("Hello error",console.error()
+            )
+      }
+}
