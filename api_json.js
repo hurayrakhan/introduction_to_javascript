@@ -40,7 +40,7 @@ const handleFetch = async() =>{
       console.log(data);
 
 }
-handleFetch()
+
 
 
 const handleFetchError = async () => {
