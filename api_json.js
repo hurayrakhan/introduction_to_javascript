@@ -55,4 +55,12 @@ const handleFetchError = async () => {
 }
 
 
+// promise manually
+
+// const fetchData = () => {
+//       return new Promise((resolve, reject) => 
+//       const status = true)
+// }
+
+
 
